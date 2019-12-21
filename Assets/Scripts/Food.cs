@@ -5,8 +5,8 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
 
-    public float HealthEffect{get {return healthEffect;}}
-    [SerializeField] private float healthEffect;
+    public int HealthEffect{get {return healthEffect;}}
+    [SerializeField] private int healthEffect;
     public int ScoreEffect{get {return scoreEffect;}}
     [SerializeField] private int scoreEffect;
     // Start is called before the first frame update
